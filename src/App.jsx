@@ -1,11 +1,15 @@
 import NavBar from "./components/NavBar";
 
-function App() {
+function App(props) {
 
   return (
     <div className="app">
-      <NavBar />
+      <div className="navbar">
+        <NavBar />
+      </div>
+      {props.children}
     </div>
+    
   );
 }
 
