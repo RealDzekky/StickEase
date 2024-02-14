@@ -4,7 +4,6 @@ import App from "./App";
 import About from "./routes/About";
 import "tailwindcss/tailwind.css";
 import "./index.css";
-import About from "./routes/About";
 
 render(
     () => (
